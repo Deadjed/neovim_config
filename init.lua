@@ -41,3 +41,6 @@ require('nvim-treesitter.configs').setup {
     ensure_installed = { "c", "cpp", "python", "prolog" },  -- Specify the languages
 }
 
+-- Set terminal to powershell (for windows only!)
+vim.g.terminal_emulator='powershell'
+vim.opt.shell = 'powershell.exe'
